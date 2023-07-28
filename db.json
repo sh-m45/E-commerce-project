@@ -1,0 +1,115 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "name": "hp",
+      "description": "hp OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 31 ,
+      "priceBeforeDiscount": 11349,
+      "priceAfterDiscount": 10349 ,
+      "rate": 4.1,
+      "img": "sectionLaptop71.jpg"  
+      
+    },
+    {
+      "id": 2,
+      "name": "dell",
+      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "priceBeforeDiscount": 15040,
+      "priceAfterDiscount": 11559 ,
+      "discountPersentage": 35 ,
+      "rate": 3.5,
+      "img": "sectionLaptop10.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "lenovo",
+      "description": "lenovo OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 20 ,
+      "priceBeforeDiscount": 13500,
+      "priceAfterDiscount": 9500 ,
+      "rate": 3.8,
+      "img": "sectionLaptop9.jpg"
+    },
+    {
+      "id": 4,
+      "name": "dell",
+      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 10 ,
+      "priceBeforeDiscount": 20000,
+      "priceAfterDiscount": 19500 ,
+      "rate": 4.5,
+      "img": "sectionLaptop8.jpg"
+    },
+    {
+      "id": 5,
+      "name": "asus",
+      "description": "asus OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 15 ,
+      "priceBeforeDiscount": 18000,
+      "priceAfterDiscount": 15000 ,
+      "rate": 3.8,
+      "img": "sectionLaptop7.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "hp",
+      "description": "hp OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 31 ,
+      "priceBeforeDiscount": 11349,
+      "priceAfterDiscount": 10349 ,
+      "rate": 4.4,
+      "img": "sectionLaptop5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "sony",
+      "description": "sony OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 40 ,
+      "priceBeforeDiscount": 17000,
+      "priceAfterDiscount": 10549 ,    
+      "rate": 4.5,
+      "img": "sectionLaptop4.jpg"
+    },
+    {
+      "id": 8,
+      "name": "lenovo",
+      "description": "lenovo OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 5 ,
+      "priceBeforeDiscount": 15500,
+      "priceAfterDiscount": 13500 ,
+      "rate": 3.9,
+      "img": "sectionLaptop3.jpg"
+    },
+    {
+      "id": 9,
+      "name": "dell",
+      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 25 ,
+      "priceBeforeDiscount": 25000,
+      "priceAfterDiscount": 20000 ,   
+      "rate": 4.8,
+      "img": "sectionLaptop2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "hp",
+      "description": "hp OLED TV 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 31 ,
+      "priceBeforeDiscount": 11349,
+      "priceAfterDiscount": 10349 ,
+      "rate": 4.0,
+      "img": "sectionLaptop1.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

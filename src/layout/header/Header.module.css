@@ -1,0 +1,64 @@
+.navbarStyle{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.brand{
+    width: 65%;
+}
+.searchDiv{
+    display: flex;
+    justify-content: end;
+    width: 70% !important;
+
+}
+.searchFrom{
+    display: flex;
+    width: 90% !important;
+    margin-right: 20px;
+}
+.iconStyle{
+    color: white;
+    font-size: 25px ;
+    margin: 5px 10px 0px;
+}
+.iconsDicStyle{
+    display: flex;
+    align-items: center;
+}
+.signInText{
+    color: white ;
+    padding-top: 5px;
+    text-decoration:none
+}
+.signInText:hover{
+    color: white ;
+}
+.CountryDiv{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px ;
+}
+.CountryLogos{
+    width: 30px ;
+    height: 30px ;
+    border-radius: 50%;
+}
+.DivCartItems{
+    position: relative;
+}
+.CartItems{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    margin-left: 5px;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}

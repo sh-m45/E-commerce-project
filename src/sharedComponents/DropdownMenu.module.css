@@ -1,0 +1,35 @@
+.DropdownStyle{
+    background-color: rgba(0,0,0,0.0) ;
+    color: white !important;
+    border: 0px solid #ccc;
+    /* width: 200px ; */
+    border-radius: 5px !important;
+    cursor:pointer;
+    width: 100px;
+
+}
+.DropdownStyle:hover{
+    border: 0px;
+    color: black !important;
+    background-color: white ;
+}
+.ArrowDropdown{
+    height: 100%;   
+    /* background-color: red; */
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+/* .Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color:red !important;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+} */

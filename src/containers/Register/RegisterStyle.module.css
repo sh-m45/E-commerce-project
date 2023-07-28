@@ -1,0 +1,116 @@
+.titleRegister{
+    font-family: Nunito Sans, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.secondTitleRegister{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: Nunito Sans, sans-serif;
+    text-decoration: none ;
+    text-transform: uppercase;
+    word-spacing: 0;
+}
+.instedDivInputStyle{
+    width: 40%;
+}
+.decorationDiv{
+    border-top: 1px solid #cdcdcd;
+    margin-top: 12px;  
+}
+.textLoginBtn{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.soicalMediaFacebookIcon{
+    font-size: 25px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+.soicalMediaGoogleIcon{
+    color: #9d9d9d;
+    font-size: 27px;
+    cursor: pointer;
+}
+.containerDivInputStyle{
+    padding: 0;
+    position: relative;
+}
+.labelStyle{
+    font-size: 12px;
+    padding: 4px 8px;
+    background: #fff;
+    position: relative;
+    top: 12px;
+    left: 12px;
+    z-index: 4;
+}
+.inputStyle{
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 20px;
+    line-height: 18px;
+    color: #222;
+    transition: all .3s;   
+}
+.loginBtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px 0;
+    font-size: 13px;
+    border: 1px solid #2b8dc6;
+    color: white;
+    background-color: #2b8dc6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.loginBtn:hover{
+    background-color: #0167A4;
+    transition: all 0.4s;
+}
+.registerBtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px 0;
+    font-size: 13px;
+    border: 1px solid #2b8dc6;
+    color: #2b8dc6;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.registerBtn:hover{
+    border: 1px solid #004066;
+    color: #004066;
+    transition: all 0.3s;
+}
+.registerLinkPage{
+    text-decoration: none;
+}
+.LoginText{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 14px;
+}
+.spanLoginStyle{
+    color: #2b8dc6;
+    font-size: 14px;
+    cursor: pointer;
+}
+.labelCheckbox{
+    font-size: 14px
+}

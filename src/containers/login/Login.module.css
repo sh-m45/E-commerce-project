@@ -1,0 +1,110 @@
+.containerDivInputStyle{
+    padding: 0;
+    position: relative;
+}
+.instedDivInputStyle{
+    width: 70%;
+}
+.titleLogin{
+    text-align: center;
+    font-weight: 400 ;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.labelStyle{
+    font-size: 12px;
+    padding: 4px 8px;
+    background: #fff;
+    position: relative;
+    top: 12px;
+    left: 12px;
+    z-index: 4;
+}
+.inputStyle{
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 20px;
+    line-height: 18px;
+    color: #222;
+    transition: all .3s;   
+}
+.fotgetPasswordText{
+    width: 100%;
+    text-align: end;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: #2b8dc6;
+    font-size: 14px;
+    cursor: pointer;
+}
+.decorationDiv{
+    border-top: 1px solid #cdcdcd;
+    margin-top: 12px;  
+}
+.textLoginBtn{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.soicalMediaFacebookIcon{
+    font-size: 25px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+.soicalMediaGoogleIcon{
+    color: #9d9d9d;
+    font-size: 27px;
+    cursor: pointer;
+}
+.LoginText{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 14px;
+}
+.loginBtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px 0;
+    font-size: 13px;
+    border: 1px solid #2b8dc6;
+    color: white;
+    background-color: #2b8dc6;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.loginBtn:hover{
+    background-color: #0167A4;
+    transition: all 0.4s;
+}
+.registerBtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 9px 0;
+    font-size: 13px;
+    border: 1px solid #2b8dc6;
+    color: #2b8dc6;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.registerBtn:hover{
+    border: 1px solid #004066;
+    color: #004066;
+    transition: all 0.3s;
+}
+.registerLinkPage{
+    text-decoration: none;
+}
+.spanLoginStyle{
+    color: #2b8dc6;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+.itemIng{
+    width: 80%;
+    background-size: cover;
+    background-color: blue;
+}
+.CaptionImg{
+    text-align: center;
+    padding-top: 20px;
+}
+.collectImg{
+    width: 100%;
+    background-size: cover;
+    border: 1px solid rgb(187, 186, 186);
+    padding: 5px ;
+}
+.brandName{
+    font-size: 14px;
+    font-weight: 700 ;
+    letter-spacing: 2px ;
+    font-family: Nunito Sans, sans-serif;
+    text-transform: uppercase;
+}
+.descriptionItem{
+    font-size: 20px ;
+    font-weight: 500 ;
+    letter-spacing: 2px ;
+    font-family: Nunito Sans, sans-serif;
+    padding-top: 5px;
+}
+.itemPrice{
+    font-size: 19px;
+    font-weight: 700 ;
+    font-family: Nunito Sans, sans-serif;
+    padding-top: 7px;
+}
+.itemPriceDiscound{
+    font-size: 14px;
+    font-weight: 500 ;
+    font-family: Nunito Sans, sans-serif;
+    text-decoration: line-through;
+    color: gray;
+    padding-left: 7px;
+    
+}
+.descriptionPrice{
+    font-size: 13px;
+    font-family: Nunito Sans, sans-serif;
+    color: gray;
+    line-height: 0px;
+}
+.titleRating{
+    font-size: 10px;
+    /* padding-left: 10px; */
+}
+.ratingNumber{
+    font-size: 12px ;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+.FirstDivDescriptionItem{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin: 0px 10px;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.SecondDivDescriptionItem{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin: 0px 10px;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.titleOffer{
+    font-size: 13px ;
+    font-weight: 700 ;
+    letter-spacing: 2px ;
+    font-family: Nunito Sans, sans-serif;
+}
+.descriptionOffer{
+    font-size: 14px ;
+    font-weight: 400 ;
+    letter-spacing: 1px ;
+    font-family: Nunito Sans, sans-serif;
+    padding-top: 3px;
+}
+.LastDivDescriptionItem{
+    margin: 0px 10px;
+    width: 80%;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.detailsOfItem{
+    line-height: 15px;
+    color: gray;
+    font-size: 15px;
+}
+.detailsOfItemSpan{
+    color: black;
+    font-weight: 500
+}
+.ListOfDetails{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Nunito Sans, sans-serif;
+}
+.imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    cursor: zoom-in;
+}
+.overlay{
+    display: none;
+    background-image: url('../../images/section2Img2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 150% 230%;
+    position: absolute;
+    width: 55%;
+    height: 80%;
+    margin-top: -37%;
+    margin-left: 30%;
+    /* border: 2px solid #555; */
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.mouseOverlay{
+    cursor: zoom-in;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    transform: translate(-50% , -50%);
+    z-index: 99999;
+    background-color: rgba(245, 245, 245, 0.6);
+}
