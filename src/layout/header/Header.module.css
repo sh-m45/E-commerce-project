@@ -4,7 +4,8 @@
     z-index: 1000;
 }
 .brand{
-    width: 65%;
+    width: 50%;
+    margin-right: 200px;
 }
 .searchDiv{
     display: flex;
@@ -22,12 +23,19 @@
     font-size: 25px ;
     margin: 5px 10px 0px;
 }
+.iconStyleChangeNav{
+    color: rgb(36, 36, 36);
+    font-size: 25px ;
+    margin: 5px 10px 0px;
+}
 .iconsDicStyle{
     display: flex;
     align-items: center;
+    
 }
 .signInText{
     color: white ;
+    white-space: nowrap;
     padding-top: 5px;
     text-decoration:none
 }
@@ -37,7 +45,7 @@
 .CountryDiv{
     display: flex;
     align-items: center;
-    padding: 0px 10px ;
+    padding: 0px 3px ;
 }
 .CountryLogos{
     width: 30px ;
@@ -62,3 +70,18 @@
     border-radius: 50%;
     
 }
+.cartIcons{
+    color: black !important;
+}
+.dropdownMenu{
+    width: 400px ;
+    /* background-color: blue; */
+    /* display: flex;
+    justify-content: end; */
+}
+/* .navber{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1000px;
+    background-color: red;
+} */

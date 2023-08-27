@@ -5,7 +5,7 @@ export default (state = [], action) => {
     switch (action.type) {
         case GET_ALL_DATA_PRODUCTS:
             newState = action.payload;
-            console.log("newState:: ", newState);
+            // console.log("newState:: ", newState);
             break;
         default:
             newState = state;

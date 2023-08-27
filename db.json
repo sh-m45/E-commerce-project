@@ -1,115 +1,735 @@
 {
   "laptops": [
     {
-      "id": 1,
+      "id": 0,
       "name": "hp",
       "description": "hp OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 31 ,
+      "discountPersentage": 31,
       "priceBeforeDiscount": 11349,
-      "priceAfterDiscount": 10349 ,
+      "priceAfterDiscount": 10349,
       "rate": 4.1,
-      "img": "sectionLaptop71.jpg"  
-      
+      "img": "images/laptop/laptop1/sectionLaptop3.jpg",
+      "imgDetails": {
+        "left": "images/laptop/laptop1/imgDetails/S300824403_2.jpeg",
+        "right": "images/laptop/laptop1/imgDetails/S300824403_3.jpeg",
+        "ahead": "images/laptop/laptop1/imgDetails/S300824403_1.jpeg",
+        "behind": "images/laptop/laptop1/imgDetails/S300824403_4.jpeg",
+        "all": "images/laptop/laptop1/imgDetails/S300824403_5.jpeg",
+        "up": "",
+        "bottom": "",
+        "information": ""
+      }
     },
     {
-      "id": 2,
+      "id": 1,
       "name": "dell",
       "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
       "priceBeforeDiscount": 15040,
-      "priceAfterDiscount": 11559 ,
-      "discountPersentage": 35 ,
+      "priceAfterDiscount": 11559,
+      "discountPersentage": 35,
       "rate": 3.5,
-      "img": "sectionLaptop10.jpeg"
+      "img": "images/laptop/laptop2/sectionLaptop6.jpg",
+      "imgDetails": {
+        "up": "images/laptop/laptop2/imgDetails/S300816760_2.jpeg",
+        "left": "images/laptop/laptop2/imgDetails/S300816760_6.jpeg",
+        "bottom": "images/laptop/laptop2/imgDetails/S300816760_7.jpeg",
+        "right": "images/laptop/laptop2/imgDetails/S300816760_8.jpeg",
+        "ahead": "images/laptop/laptop2/imgDetails/S300816760_9.jpeg",
+        "behind": "images/laptop/laptop2/imgDetails/S300816760_10.jpeg",
+        "all": "images/laptop/laptop2/imgDetails/S300816760_11.jpeg",
+        "information": "images/laptop/laptop2/imgDetails/S300816760_12.jpeg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Macbook",
+      "description": "Macbook OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 20,
+      "priceBeforeDiscount": 13500,
+      "priceAfterDiscount": 9500,
+      "rate": 3.8,
+      "img": "images/laptop/laptop3/sectionLaptop8.jpg",
+      "imgDetails": {
+        "up": "images/laptop/laptop3/imgDetails/0cc8571733c6d600d52dda8e110cce917ba4e3a5_MacBook_Pro_16_in_Silver_PDP_Image_Position_11_EN_result.jpg",
+        "left": "images/laptop/laptop3/imgDetails/24a8a9176de3b84301d4fa199254f339ee520f36_MacBook_Pro_16_in_Silver_PDP_Image_Position_4_EN_result.jpg",
+        "bottom": "images/laptop/laptop3/imgDetails/731bf1f79189d7ff4c4ebdaa88189d261e90e7b0_MacBook_Pro_16_in_Silver_PDP_Image_Position_2_EN_result.jpg",
+        "right": "images/laptop/laptop3/imgDetails/4820b1d0bb4e34c14b75bc6e85067da392116869_MacBook_Pro_16_in_Silver_PDP_Image_Position_8_EN_result.jpg",
+        "ahead": "images/laptop/laptop3/imgDetails/76246c6d9f1665b213e05de9019bac6c1a7c6ccc_MacBook_Pro_16_in_Silver_PDP_Image_Position_5_EN_result.jpg",
+        "behind": "images/laptop/laptop3/imgDetails/858629e171b073300739ef7e7ef9ebb3b087d567_MacBook_Pro_16_in_Silver_PDP_Image_Position_10_EN_result.jpg",
+        "all": "images/laptop/laptop3/imgDetails/b4160dbc9fb1352199a08fff3679a0fa5353a4a6_MacBook_Pro_16_in_Silver_PDP_Image_Position_6_EN_result.jpg",
+        "information": "images/laptop/laptop3/imgDetails/ce5753c60c0fa34f18e299d7ef6b364963a67b7d_MacBook_Pro_16_in_Silver_PDP_Image_Position_3_EN_result.jpg"
+      }
     },
     {
       "id": 3,
-      "name": "lenovo",
-      "description": "lenovo OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 20 ,
-      "priceBeforeDiscount": 13500,
-      "priceAfterDiscount": 9500 ,
-      "rate": 3.8,
-      "img": "sectionLaptop9.jpg"
+      "name": "ALIENWARE",
+      "description": "ALIENWARE OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 10,
+      "priceBeforeDiscount": 20000,
+      "priceAfterDiscount": 19500,
+      "rate": 4.5,
+      "img": "images/laptop/laptop4/sectionLaptop9.jpeg",
+      "imgDetails": {
+        "up": "images/laptop/laptop4/imgDetails/S100580741_2.jpeg",
+        "left": "images/laptop/laptop4/imgDetails/S100580741_3.jpeg",
+        "bottom": "images/laptop/laptop4/imgDetails/S100580741_4.jpeg",
+        "right": "images/laptop/laptop4/imgDetails/S100580741_5.jpeg",
+        "ahead": "images/laptop/laptop4/imgDetails/S100580741_6.jpeg",
+        "behind": "images/laptop/laptop4/imgDetails/S100580741_7.jpeg",
+        "all": "images/laptop/laptop4/imgDetails/S100580741_8.jpeg",
+        "information": "images/laptop/laptop4/imgDetails/sectionLaptop9.jpeg"
+      }
     },
     {
       "id": 4,
-      "name": "dell",
-      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 10 ,
-      "priceBeforeDiscount": 20000,
-      "priceAfterDiscount": 19500 ,
-      "rate": 4.5,
-      "img": "sectionLaptop8.jpg"
+      "name": "DELL",
+      "description": "DELL OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 15,
+      "priceBeforeDiscount": 18000,
+      "priceAfterDiscount": 15000,
+      "rate": 3.8,
+      "img": "images/laptop/laptop9/sectionLaptop71.jpg",
+      "imgDetails": {
+        "up": "images/laptop/laptop9/imgDetails/S100686658_1 (1).jpeg",
+        "left": "images/laptop/laptop9/imgDetails/S100686658_1.jpeg",
+        "bottom": "images/laptop/laptop9/imgDetails/S100686658_2.jpeg",
+        "right": "images/laptop/laptop9/imgDetails/S100686658_3.jpeg",
+        "ahead": "",
+        "behind": "",
+        "all": "",
+        "information": ""
+      }
     },
     {
       "id": 5,
-      "name": "asus",
-      "description": "asus OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 15 ,
-      "priceBeforeDiscount": 18000,
-      "priceAfterDiscount": 15000 ,
-      "rate": 3.8,
-      "img": "sectionLaptop7.jpeg"
+      "name": "DELL",
+      "description": "DELL OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 31,
+      "priceBeforeDiscount": 11349,
+      "priceAfterDiscount": 10349,
+      "rate": 4.4,
+      "img": "images/laptop/laptop5/sectionLaptop7.jpeg",
+      "imgDetails": {
+        "up": "images/laptop/laptop5/imgDetails/S300816760_2.jpeg",
+        "left": "images/laptop/laptop5/imgDetails/S300816760_6.jpeg",
+        "bottom": "images/laptop/laptop5/imgDetails/S300816760_7.jpeg",
+        "right": "images/laptop/laptop5/imgDetails/S300816760_8.jpeg",
+        "ahead": "images/laptop/laptop5/imgDetails/S300816760_9.jpeg",
+        "behind": "images/laptop/laptop5/imgDetails/S300816760_10.jpeg",
+        "all": "images/laptop/laptop5/imgDetails/S300816760_11.jpeg",
+        "information": "images/laptop/laptop5/imgDetails/S300816760_12.jpeg"
+      }
     },
     {
       "id": 6,
-      "name": "hp",
-      "description": "hp OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 31 ,
-      "priceBeforeDiscount": 11349,
-      "priceAfterDiscount": 10349 ,
-      "rate": 4.4,
-      "img": "sectionLaptop5.jpg"
+      "name": "Macbook",
+      "description": "Macbook OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 40,
+      "priceBeforeDiscount": 17000,
+      "priceAfterDiscount": 10549,
+      "rate": 4.5,
+      "img": "images/laptop/laptop6/S200766867_1.jpeg",
+      "imgDetails": {
+        "up": "images/laptop/laptop6/imgDetails/0cc8571733c6d600d52dda8e110cce917ba4e3a5_MacBook_Pro_16_in_Silver_PDP_Image_Position_11_EN_result.jpg",
+        "left": "images/laptop/laptop6/imgDetails/24a8a9176de3b84301d4fa199254f339ee520f36_MacBook_Pro_16_in_Silver_PDP_Image_Position_4_EN_result.jpg",
+        "bottom": "images/laptop/laptop6/imgDetails/731bf1f79189d7ff4c4ebdaa88189d261e90e7b0_MacBook_Pro_16_in_Silver_PDP_Image_Position_2_EN_result.jpg",
+        "right": "images/laptop/laptop6/imgDetails/4820b1d0bb4e34c14b75bc6e85067da392116869_MacBook_Pro_16_in_Silver_PDP_Image_Position_8_EN_result.jpg",
+        "ahead": "images/laptop/laptop6/imgDetails/76246c6d9f1665b213e05de9019bac6c1a7c6ccc_MacBook_Pro_16_in_Silver_PDP_Image_Position_5_EN_result.jpg",
+        "behind": "images/laptop/laptop6/imgDetails/858629e171b073300739ef7e7ef9ebb3b087d567_MacBook_Pro_16_in_Silver_PDP_Image_Position_10_EN_result.jpg",
+        "all": "images/laptop/laptop6/imgDetails/b4160dbc9fb1352199a08fff3679a0fa5353a4a6_MacBook_Pro_16_in_Silver_PDP_Image_Position_6_EN_result.jpg",
+        "information": "images/laptop/laptop6/imgDetails/ce5753c60c0fa34f18e299d7ef6b364963a67b7d_MacBook_Pro_16_in_Silver_PDP_Image_Position_3_EN_result.jpg"
+      }
     },
     {
       "id": 7,
-      "name": "sony",
-      "description": "sony OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 40 ,
-      "priceBeforeDiscount": 17000,
-      "priceAfterDiscount": 10549 ,    
-      "rate": 4.5,
-      "img": "sectionLaptop4.jpg"
+      "name": "Macbook",
+      "description": "Macbook OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 5,
+      "priceBeforeDiscount": 15500,
+      "priceAfterDiscount": 13500,
+      "rate": 3.9,
+      "img": "images/laptop/laptop7/sectionLaptop1.jpg",
+      "imgDetails": {
+        "up": "images/laptop/laptop7/imgDetails/S200766863_1.jpeg",
+        "left": "images/laptop/laptop7/imgDetails/S200766863_2.jpeg",
+        "bottom": "images/laptop/laptop7/imgDetails/S200766863_6.jpeg",
+        "right": "images/laptop/laptop7/imgDetails/S200766863_7.jpeg",
+        "ahead": "images/laptop/laptop7/imgDetails/S200766863_8.jpeg",
+        "behind": "images/laptop/laptop7/imgDetails/S200766863_9.jpeg",
+        "all": "images/laptop/laptop7/imgDetails/S200766863_10.jpeg",
+        "information": "images/laptop/laptop7/imgDetails/S200766863_11.jpeg"
+      }
     },
     {
       "id": 8,
-      "name": "lenovo",
-      "description": "lenovo OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 5 ,
-      "priceBeforeDiscount": 15500,
-      "priceAfterDiscount": 13500 ,
-      "rate": 3.9,
-      "img": "sectionLaptop3.jpg"
+      "name": "dell",
+      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
+      "discountPersentage": 25,
+      "priceBeforeDiscount": 25000,
+      "priceAfterDiscount": 20000,
+      "rate": 4.8,
+      "img": "images/laptop/laptop8/sectionLaptop4.jpg",
+      "imgDetails": {
+        "up": "images/laptop/laptop8/imgDetails/0cc8571733c6d600d52dda8e110cce917ba4e3a5_MacBook_Pro_16_in_Silver_PDP_Image_Position_11_EN_result.jpg",
+        "left": "images/laptop/laptop8/imgDetails/24a8a9176de3b84301d4fa199254f339ee520f36_MacBook_Pro_16_in_Silver_PDP_Image_Position_4_EN_result.jpg",
+        "bottom": "images/laptop/laptop8/imgDetails/731bf1f79189d7ff4c4ebdaa88189d261e90e7b0_MacBook_Pro_16_in_Silver_PDP_Image_Position_2_EN_result.jpg",
+        "right": "images/laptop/laptop8/imgDetails/4820b1d0bb4e34c14b75bc6e85067da392116869_MacBook_Pro_16_in_Silver_PDP_Image_Position_8_EN_result.jpg",
+        "ahead": "images/laptop/laptop8/imgDetails/76246c6d9f1665b213e05de9019bac6c1a7c6ccc_MacBook_Pro_16_in_Silver_PDP_Image_Position_5_EN_result.jpg",
+        "behind": "images/laptop/laptop8/imgDetails/858629e171b073300739ef7e7ef9ebb3b087d567_MacBook_Pro_16_in_Silver_PDP_Image_Position_10_EN_result.jpg",
+        "all": "images/laptop/laptop8/imgDetails/b4160dbc9fb1352199a08fff3679a0fa5353a4a6_MacBook_Pro_16_in_Silver_PDP_Image_Position_6_EN_result.jpg",
+        "information": "images/laptop/laptop8/imgDetails/ce5753c60c0fa34f18e299d7ef6b364963a67b7d_MacBook_Pro_16_in_Silver_PDP_Image_Position_3_EN_result.jpg"
+      }
     },
     {
       "id": 9,
-      "name": "dell",
-      "description": "dell OLED laptop 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 25 ,
-      "priceBeforeDiscount": 25000,
-      "priceAfterDiscount": 20000 ,   
-      "rate": 4.8,
-      "img": "sectionLaptop2.jpg"
-    },
-    {
-      "id": 10,
       "name": "hp",
       "description": "hp OLED TV 77 Inch C2 Series, Cinema Screen Design 4K",
-      "discountPersentage": 31 ,
+      "discountPersentage": 31,
       "priceBeforeDiscount": 11349,
-      "priceAfterDiscount": 10349 ,
-      "rate": 4.0,
-      "img": "sectionLaptop1.jpg"
+      "priceAfterDiscount": 10349,
+      "rate": 4,
+      "img": "images/laptop/laptop10/sectionLaptop1.jpeg",
+      "imgDetails": {
+        "up": "images/laptop/laptop10/imgDetails/000000000001213813_1.jpeg",
+        "left": "images/laptop/laptop10/imgDetails/000000000001213813_2.jpeg",
+        "bottom": "images/laptop/laptop10/imgDetails/000000000001213813_3.jpeg",
+        "right": "images/laptop/laptop10/imgDetails/000000000001213813_4.jpeg",
+        "ahead": "images/laptop/laptop10/imgDetails/000000000001213813_5.jpeg",
+        "behind": "images/laptop/laptop10/imgDetails/000000000001213813_6.jpeg",
+        "all": "",
+        "information": ""
+      }
     }
   ],
-  "comments": [
+  "phones": [
+    {
+      "id": 0,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy S23 Ultra 5G 256GB 12GB Phantom Black Dual Sim Smartphone – Middle East Version",
+      "discountPersentage": 31,
+      "priceBeforeDiscount": 4949,
+      "priceAfterDiscount": 3275,
+      "rate": 4.6,
+      "img": "images/phones/phone1/phone1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone1/imgDetails/SMS918B_phantom_black_2.jpeg",
+        "right": "images/phones/phone1/imgDetails/SMS918B_phantom_black_3.jpeg",
+        "ahead": "images/phones/phone1/imgDetails/SMS918B_phantom_black_4.jpeg",
+        "behind": "images/phones/phone1/imgDetails/SMS918B_phantom_black_6.jpeg",
+        "all": "images/phones/phone1/imgDetails/SMS918B_phantom_black_7.jpeg",
+        "up": "images/phones/phone1/imgDetails/SMS918B_phantom_black_8.jpeg",
+        "bottom": "images/phones/phone1/imgDetails/SMS918B_phantom_black_10.jpeg",
+        "information": "images/phones/phone1/imgDetails/SMS918B_phantom_black_11.jpeg"
+      }
+    },
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "APPLE",
+      "description": "Apple iPhone 14 Pro 128GB Deep Purple with FaceTime – Middle East Version",
+      "discountPersentage": 15,
+      "priceBeforeDiscount": 4299,
+      "priceAfterDiscount": 3799,
+      "rate": 4.6,
+      "img": "images/phones/phone2/IPHONE14PRO_deep_purple_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone2/imgDetails/IPHONE14PRO_deep_purple_2.jpeg",
+        "right": "images/phones/phone2/imgDetails/IPHONE14PRO_deep_purple_3.jpeg",
+        "ahead": "images/phones/phone2/imgDetails/IPHONE14PRO_deep_purple_4.jpeg",
+        "behind": "images/phones/phone2/imgDetails/IPHONE14PRO_deep_purple_5.jpeg",
+        "all": "images/phones/phone2/imgDetails/IPHONE14PRO_deep_purple_10.jpeg",
+        "up": "images/phones/phone2/imgDetails/S200784382_6.jpeg",
+        "bottom": "images/phones/phone2/imgDetails/S200784382_7.jpeg",
+        "information": "images/phones/phone2/imgDetails/S200784382_8.jpeg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "APPLE",
+      "description": "Apple iPhone 14 Pro Max 128GB Space Black – International Version (Physical Dual Sim)",
+      "discountPersentage": 10,
+      "priceBeforeDiscount": 4305,
+      "priceAfterDiscount": 3971,
+      "rate": 4.5,
+      "img": "images/phones/phone3/IPHONE14PROMAX_space_black_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_2.jpeg",
+        "right": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_3.jpeg",
+        "ahead": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_4.jpeg",
+        "behind": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_5.jpeg",
+        "all": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_10.jpeg",
+        "up": "images/phones/phone3/imgDetails/S200784429_6.jpeg",
+        "bottom": "images/phones/phone3/imgDetails/S200784429_7.jpeg",
+        "information": "images/phones/phone3/imgDetails/S200784429_8.jpeg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy S21 FE 256GB Graphite 5G Dual Sim Smartphone – Middle East Version",
+      "discountPersentage": 50,
+      "priceBeforeDiscount": 2899,
+      "priceAfterDiscount": 1428,
+      "rate": 4.3,
+      "img": "images/phones/phone4/S100720612_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone4/imgDetails/S100720612_1.jpeg",
+        "right": "images/phones/phone4/imgDetails/S100720612_2.jpeg",
+        "ahead": "images/phones/phone4/imgDetails/S100720612_3.jpeg",
+        "behind": "images/phones/phone4/imgDetails/S100720612_4.jpeg",
+        "all": "images/phones/phone4/imgDetails/S100720612_5.jpeg",
+        "up": "images/phones/phone4/imgDetails/S100720612_6.jpeg",
+        "bottom": "images/phones/phone4/imgDetails/S100720612_8.jpeg",
+        "information": "images/phones/phone4/imgDetails/S100720612_9.jpeg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "APPLE",
+      "description": "iPhone 13 Pro Max 1TB Sierra Blue (FaceTime – International Specs)",
+      "discountPersentage": 15,
+      "priceBeforeDiscount": 6499,
+      "priceAfterDiscount": 5300,
+      "rate": 4.5,
+      "img": "images/phones/phone5/section2Img2.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone5/imgDetails/item1.jpeg",
+        "right": "images/phones/phone5/imgDetails/item2.jpeg",
+        "ahead": "images/phones/phone5/imgDetails/item3.jpeg",
+        "behind": "images/phones/phone5/imgDetails/item4.jpeg",
+        "all": "images/phones/phone5/imgDetails/item5.jpeg",
+        "up": "images/phones/phone5/imgDetails/item6.jpeg",
+        "bottom": "images/phones/phone5/imgDetails/item7.jpeg",
+        "information": "images/phones/phone5/imgDetails/item8.jpeg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "APPLE",
+      "description": "iPhone 13 Pro Max 128GB Alpine Green with Facetime – Middle East Version",
+      "discountPersentage": 15,
+      "priceBeforeDiscount": 4699,
+      "priceAfterDiscount": 3991,
+      "rate": 4.5,
+      "img": "images/phones/phone6/b6932d0dab0dae3c2b4c7bcc16acff706fca9a72_S200769291_1.jpg",
+      "imgDetails": {
+        "left": "images/phones/phone6/imgDetails/3bb6018acf79bbae70b37a052952f62f958bae06_S200769291_4.jpg",
+        "right": "images/phones/phone6/imgDetails/10f7f2281915c7c1e3222fdf6afc2329429798e6_S200769291_6.jpg",
+        "ahead": "images/phones/phone6/imgDetails/0500eec883e03ba1c75110d73d0186d981ffab3c_S200769291_3.jpg",
+        "behind": "images/phones/phone6/imgDetails/b6932d0dab0dae3c2b4c7bcc16acff706fca9a72_S200769291_1.jpg",
+        "all": "images/phones/phone6/imgDetails/c1cd3526ce619e4f313c010d9da026814288f584_S200769291_5.jpg",
+        "up": "images/phones/phone6/imgDetails/f999cd17d88eaff7eba3df24cf771d9648cd6297_S200769291_2.jpg",
+        "bottom": "images/phones/phone6/imgDetails/f54892a97412cb8532ce4f9c324609db1f1152b1_S200769291_10.jpg",
+        "information": ""
+      }
+    },
+    {
+      "id": 6,
+      "name": "HONOR",
+      "description": "Honor 70 256GB Icelandic Frost 5G Dual Sim Smartphone",
+      "discountPersentage": 5,
+      "priceBeforeDiscount": 1898,
+      "priceAfterDiscount": 1499,
+      "rate": 4.4,
+      "img": "images/phones/phone7/S200777181_1.jpeg",
+      "imgDetails": {
+        "up": "images/phones/phone7/imgDetails/S200777181_2.jpeg",
+        "left": "images/phones/phone7/imgDetails/S200777181_3.jpeg",
+        "bottom": "images/phones/phone7/imgDetails/S200777181_6.jpeg",
+        "right": "images/phones/phone7/imgDetails/S200777181_7.jpeg",
+        "ahead": "images/phones/phone7/imgDetails/S200777181_8.jpeg",
+        "behind": "images/phones/phone7/imgDetails/S200777181_9.jpeg",
+        "all": "images/phones/phone7/imgDetails/S200777181_10.jpeg",
+        "information": ""
+      }
+    },
+    {
+      "id": 7,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy S21 FE 256GB Graphite 5G Dual Sim Smartphone – Middle East Version",
+      "discountPersentage": 50,
+      "priceBeforeDiscount": 2899,
+      "priceAfterDiscount": 1428,
+      "rate": 4.3,
+      "img": "images/phones/phone8/SMF711B_phantom_black_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone8/imgDetails/SMF711B_phantom_black_3.jpeg",
+        "right": "images/phones/phone8/imgDetails/SMF711B_phantom_black_5.jpeg",
+        "ahead": "images/phones/phone8/imgDetails/SMF711B_phantom_black_6.jpeg",
+        "behind": "images/phones/phone8/imgDetails/SMF711B_phantom_black_7.jpeg",
+        "all": "images/phones/phone8/imgDetails/SMF711B_phantom_black_8.jpeg",
+        "up": "images/phones/phone8/imgDetails/SMF711B_phantom_black_2.jpeg",
+        "bottom": "images/phones/phone8/imgDetails/SMF711B_phantom_black_4.jpeg",
+        "information": "images/phones/phone8/imgDetails/SMF711B_phantom_black_9.jpeg"
+      }
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "tablets": [
+    {
+      "id": 0,
+      "name": "LENOVO",
+      "description": "Lenovo M10 Plus Gen 3 TB-128XU Tablet – WiFi+4G 128GB 4GB 10.1inch Storm Grey",
+      "discountPersentage": 33,
+      "priceBeforeDiscount": 1349,
+      "priceAfterDiscount": 899,
+      "rate": 2.8,
+      "img": "images/tablets/tablet1/S200771308_1.jpeg",
+      "imgDetails": {
+        "left": "images/tablets/tablet1/imgDetails/S200771308_2.jpeg",
+        "right": "images/tablets/tablet1/imgDetails/S200771308_3.jpeg",
+        "ahead": "images/tablets/tablet1/imgDetails/S200771308_4.jpeg",
+        "behind": "images/tablets/tablet1/imgDetails/S200771308_5.jpeg",
+        "all": "images/tablets/tablet1/imgDetails/S200771308_6.jpeg",
+        "up": "images/tablets/tablet1/imgDetails/S200771308_7.jpeg",
+        "bottom": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 1,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy Tab S8+ SM-X806BZAAMEA Tablet – WiFi+5G 128GB 8GB 12.4inch Graphite",
+      "priceBeforeDiscount": 4199,
+      "priceAfterDiscount": 3064,
+      "discountPersentage": 27,
+      "rate": 4.3,
+      "img": "images/tablets/tablet2/S200751242_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet2/imgDetails/S200751242_2.jpeg",
+        "left": "images/tablets/tablet2/imgDetails/S200751242_3.jpeg",
+        "bottom": "images/tablets/tablet2/imgDetails/S200751242_4.jpeg",
+        "right": "images/tablets/tablet2/imgDetails/S200751242_5.jpeg",
+        "ahead": "images/tablets/tablet2/imgDetails/S200751242_6.jpeg",
+        "behind": "images/tablets/tablet2/imgDetails/S200751242_7.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 2,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy Tab S8+ SM-X806BZSAMEA Tablet – WiFi+5G 128GB 8GB 12.4inch Silver",
+      "discountPersentage": "5",
+      "priceBeforeDiscount": 3549,
+      "priceAfterDiscount": 3349,
+      "rate": 4.3,
+      "img": "images/tablets/tablet3/S200751250_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet3/imgDetails/S200751250_2.jpeg",
+        "left": "images/tablets/tablet3/imgDetails/S200751250_3.jpeg",
+        "bottom": "images/tablets/tablet3/imgDetails/S200751250_4.jpeg",
+        "right": "images/tablets/tablet3/imgDetails/S200751250_5.jpeg",
+        "ahead": "images/tablets/tablet3/imgDetails/S200751250_6.jpeg",
+        "behind": "images/tablets/tablet3/imgDetails/S200751250_7.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 3,
+      "name": "APPLE",
+      "description": "Apple iPad Pro M2 12.9-inch (2022) – WiFi+Cellular 128GB Silver – International Version",
+      "discountPersentage": 10,
+      "priceBeforeDiscount": 2899,
+      "priceAfterDiscount": 1369,
+      "rate": 4.6,
+      "img": "images/tablets/tablet4/S200795901_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet4/imgDetails/S200795901_1.jpeg",
+        "left": "images/tablets/tablet4/imgDetails/S200795901_2.jpeg",
+        "bottom": "images/tablets/tablet4/imgDetails/S200795901_3.jpeg",
+        "right": "images/tablets/tablet4/imgDetails/S200795901_1.jpeg",
+        "ahead": "images/tablets/tablet4/imgDetails/S200795901_1.jpeg",
+        "behind": "images/tablets/tablet4/imgDetails/S200795901_1.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 4,
+      "name": "APPLE",
+      "description": "Apple iPad Pro M2 11-inch (2022) – WiFi 512GB Space Grey – International Version",
+      "discountPersentage": 12,
+      "priceBeforeDiscount": 4899,
+      "priceAfterDiscount": 4298,
+      "rate": 4.7,
+      "img": "images/tablets/tablet5/S200795884_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet5/imgDetails/S200795884_2.jpeg",
+        "left": "images/tablets/tablet5/imgDetails/S200795884_3.jpeg",
+        "bottom": "images/tablets/tablet5/imgDetails/S200795884_2.jpeg",
+        "right": "images/tablets/tablet5/imgDetails/S200795884_2.jpeg",
+        "ahead": "images/tablets/tablet5/imgDetails/S200795884_2.jpeg",
+        "behind": "images/tablets/tablet5/imgDetails/S200795884_2.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 5,
+      "name": "APPLE",
+      "description": "Apple iPad Air (2022) WiFi 256GB 10.9inch Starlight – International Version",
+      "discountPersentage": 5,
+      "priceBeforeDiscount": 2800,
+      "priceAfterDiscount": 2669,
+      "rate": 4.6,
+      "img": "images/tablets/tablet6/S200752326_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "left": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "bottom": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "right": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "ahead": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "behind": "images/tablets/tablet6/imgDetails/S200752326_1.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 6,
+      "name": "APPLE",
+      "description": "Apple iPad Air (2022) WiFi 64GB 10.9inch Blue",
+      "discountPersentage": 18,
+      "priceBeforeDiscount": 2499,
+      "priceAfterDiscount": 2039,
+      "rate": 4.6,
+      "img": "images/tablets/tablet7/IPADAIR2022WIFI_blue_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_3.jpeg",
+        "left": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_4.jpeg",
+        "bottom": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_5.jpeg",
+        "right": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_7.jpeg",
+        "ahead": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_8.jpeg",
+        "behind": "images/tablets/tablet7/imgDetails/IPADAIR2022WIFI_blue_10.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    },
+    {
+      "id": 7,
+      "name": "HUAWEI",
+      "description": "Huawei MatePad SE Agassi5-W09BE Kids Edition Tablet – WiFi 32GB 3GB 10.4inch Black",
+      "discountPersentage": 5,
+      "priceBeforeDiscount": 648,
+      "priceAfterDiscount": 599,
+      "rate": 3,
+      "img": "images/tablets/tablet8/S300818047_1.jpeg",
+      "imgDetails": {
+        "up": "images/tablets/tablet8/imgDetails/S300818047_2.jpeg",
+        "left": "images/tablets/tablet8/imgDetails/S300818047_3.jpeg",
+        "bottom": "images/tablets/tablet8/imgDetails/S300818047_4.jpeg",
+        "right": "images/tablets/tablet8/imgDetails/S300818047_5.jpeg",
+        "ahead": "images/tablets/tablet8/imgDetails/S300818047_6.jpeg",
+        "behind": "images/tablets/tablet8/imgDetails/S300818047_6.jpeg",
+        "all": "null",
+        "information": "null"
+      }
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "",
+      "name": "",
+      "description": "",
+      "discountPersentage": 0,
+      "priceBeforeDiscount": 0,
+      "priceAfterDiscount": 0,
+      "rate": 0,
+      "img": "",
+      "imgDetails": {
+        "left": "",
+        "right": "",
+        "ahead": "",
+        "behind": "",
+        "all": "",
+        "up": "",
+        "bottom": "",
+        "information": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "APPLE",
+      "description": "Apple iPhone 14 Pro Max 128GB Space Black – International Version (Physical Dual Sim)",
+      "discountPersentage": 10,
+      "priceBeforeDiscount": 4305,
+      "priceAfterDiscount": 3971,
+      "rate": 4.5,
+      "img": "images/phones/phone3/IPHONE14PROMAX_space_black_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_2.jpeg",
+        "right": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_3.jpeg",
+        "ahead": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_4.jpeg",
+        "behind": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_5.jpeg",
+        "all": "images/phones/phone3/imgDetails/IPHONE14PROMAX_space_black_10.jpeg",
+        "up": "images/phones/phone3/imgDetails/S200784429_6.jpeg",
+        "bottom": "images/phones/phone3/imgDetails/S200784429_7.jpeg",
+        "information": "images/phones/phone3/imgDetails/S200784429_8.jpeg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG",
+      "description": "Samsung Galaxy S21 FE 256GB Graphite 5G Dual Sim Smartphone – Middle East Version",
+      "discountPersentage": 50,
+      "priceBeforeDiscount": 2899,
+      "priceAfterDiscount": 1428,
+      "rate": 4.3,
+      "img": "images/phones/phone4/S100720612_1.jpeg",
+      "imgDetails": {
+        "left": "images/phones/phone4/imgDetails/S100720612_1.jpeg",
+        "right": "images/phones/phone4/imgDetails/S100720612_2.jpeg",
+        "ahead": "images/phones/phone4/imgDetails/S100720612_3.jpeg",
+        "behind": "images/phones/phone4/imgDetails/S100720612_4.jpeg",
+        "all": "images/phones/phone4/imgDetails/S100720612_5.jpeg",
+        "up": "images/phones/phone4/imgDetails/S100720612_6.jpeg",
+        "bottom": "images/phones/phone4/imgDetails/S100720612_8.jpeg",
+        "information": "images/phones/phone4/imgDetails/S100720612_9.jpeg"
+      }
+    }
+  ],
+  "cartItemsLaptops": [
+    {
+      "id": "",
+      "name": "",
+      "description": "",
+      "discountPersentage": 0,
+      "priceBeforeDiscount": 0,
+      "priceAfterDiscount": 0,
+      "rate": 0,
+      "img": "",
+      "imgDetails": {
+        "left": "",
+        "right": "",
+        "ahead": "",
+        "behind": "",
+        "all": "",
+        "up": "",
+        "bottom": "",
+        "information": ""
+      }
+    }
+  ],
+  "cartItemsTablets": [
+    {
+      "id": "",
+      "name": "",
+      "description": "",
+      "discountPersentage": 0,
+      "priceBeforeDiscount": 0,
+      "priceAfterDiscount": 0,
+      "rate": 0,
+      "img": "",
+      "imgDetails": {
+        "left": "",
+        "right": "",
+        "ahead": "",
+        "behind": "",
+        "all": "",
+        "up": "",
+        "bottom": "",
+        "information": ""
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "mobile_number": "",
+      "password": "",
+      "comfirmPassword": ""
+    },
+    {
+      "id": 0,
+      "email": "eng.shrouk.mamdoh@gmail.com",
+      "first_name": "shrouk",
+      "last_name": "mamdoh",
+      "mobile_number": "01011698813",
+      "password": "shrouk157",
+      "comfirmPassword": "shrouk157"
+    },
+    {
+      "id": 1,
+      "email": "anas.afifi@gmail.com",
+      "first_name": "anas",
+      "last_name": "afifi",
+      "mobile_number": "01030947210",
+      "password": "anas157",
+      "comfirmPassword": "anas157"
+    },
+    {
+      "id": 2,
+      "email": "nada.mamdoh@gmail.com",
+      "first_name": "nada",
+      "last_name": "mamdoh",
+      "mobile_number": "01090089837",
+      "password": "nada23",
+      "comfirmPassword": "nada23"
+    },
+    {
+      "email": "noramohamedshawky@gmail.com",
+      "first_name": "nora",
+      "last_name": "mohamed",
+      "mobile_number": "011011698813",
+      "password": "P@ssw0rd",
+      "comfirmPassword": "P@ssw0rd",
+      "id": 3
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "shrouk",
+      "last_name": "mamdoh",
+      "mobile_number": "01011698813",
+      "password": "Ss@12345",
+      "comfirmPassword": "Ss@12345",
+      "id": 4
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "shrouk",
+      "last_name": "mamdoh",
+      "mobile_number": "01011698813",
+      "password": "Ss@12345",
+      "comfirmPassword": "Ss@12345",
+      "id": 5
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "shrouk",
+      "last_name": "mamdoh",
+      "mobile_number": "01011698813",
+      "password": "Ss@12345",
+      "comfirmPassword": "Ss@12345",
+      "id": 6
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "shrouk",
+      "last_name": "mamdoh",
+      "mobile_number": "01011698813",
+      "password": "Ss@12345",
+      "comfirmPassword": "Ss@12345",
+      "id": 7
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "",
+      "last_name": "",
+      "mobile_number": "",
+      "password": "Ss@12345",
+      "comfirmPassword": "",
+      "id": 8
+    },
+    {
+      "email": "shorouk@gmail.com",
+      "first_name": "",
+      "last_name": "",
+      "mobile_number": "",
+      "password": "Ss@12345",
+      "comfirmPassword": "",
+      "id": 9
+    }
+  ]
 }

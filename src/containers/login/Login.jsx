@@ -1,29 +1,106 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import style from './Login.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGooglePlusG } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from 'react-router-dom';
-export default function Login() {
+import { connect } from 'react-redux';
+import {
+  getUser
+} from '../../redux/actions/carProcessing'
+import { validation } from '../../services/validation.service';
+
+function mapStateToProps(state) {
+  return {
+    getAllDataUsers: state.getAllDataUsers,
+  }
+}
+function mapDispatchToProps(dispatch) {
+  return {
+    getUser: () => dispatch(getUser()),
+  }
+}
+
+function Login(props) {
+  let [users, setUsers] = useState([]);
+  let [userLogin, setUserLogin] = useState({
+    email: "",
+    password: "",
+  })
+  let [errorEmail, setErrorEmail] = useState('');
+  let [errorPassword, setErrorPassword] = useState('');
+  let [checkAllVariable, setCheckAllVariable] = useState(true);
+  const getUserData = (e) => {
+    let myUser = { ...userLogin }
+    myUser[e.target.name] = e.target.value;
+    setUserLogin(myUser);
+    validationForm(e);
+    // console.log(user)
+  }
+  const validationForm = (e) => {
+    let Name = e.target.name;
+    let value = e.target.value;
+
+    if (Name === "email") {
+      setErrorEmail(validation.validationEmail(value, Name));
+    }
+
+    if (Name === "password") {
+      setErrorPassword(validation.validationPassword(value, Name));
+    }
+
+  }
+
+  const submitData = async (e) => {
+    e.preventDefault();
+    acceptUserLogin()
+
+  }
+
+  const acceptUserLogin = () => {
+    users?.map((user) => {
+      if (user.email == userLogin.email && user.password == userLogin.password) {
+        localStorage.setItem('userLogin', JSON.stringify(user));
+        setCheckAllVariable(true);
+
+      }
+      else {
+        setCheckAllVariable(false);
+      }
+    })
+
+  }
+
+  useEffect(() => {
+    props.getUser()
+  }, [])
+
+  useEffect(() => {
+    setUsers(props.getAllDataUsers);
+    acceptUserLogin()
+  }, [props.getAllDataUsers, userLogin])
+
+
+
   return (
     <Fragment>
       <h3 className={style.titleLogin}>Welcome</h3>
       <div className="d-flex justify-content-center">
-        <form className="d-flex justify-content-center">
+        <form onSubmit={submitData} className="d-flex justify-content-center">
           <div className={style.instedDivInputStyle}>
-            <div className={style.containerDivInputStyle}>
+            <div className={errorEmail == "" ? style.containerDivInputStyle : style.containerDivInputStyleError}>
               <label className={style.labelStyle} for="exampleInputEmail1">Email address</label>
-              <input type="email" className={style.inputStyle} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+              <input onChange={(e) => getUserData(e)} type="email" className={errorEmail == "" ? style.inputStyle : style.inputStyleError} name='email' id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" />
+              <div>{errorEmail == '' ? "" : (<span className={style.styleError}>{errorEmail}</span>)}</div>
             </div>
-            <div className={style.containerDivInputStyle}>
-              <label className={style.labelStyle}>Password</label>
-              <input type="password" className={style.inputStyle} id="exampleInputPassword1" placeholder="Password" />
-
+            <div className={errorEmail == "" ? style.containerDivInputStyle : style.containerDivInputStyleError}>
+              <label className={style.labelStyle}>Password *</label>
+              <input onChange={(e) => getUserData(e)} type="password" className={errorPassword == "" ? style.inputStyle : style.inputStyleError} name='password' placeholder="Password" />
+              <div>{errorPassword == '' ? "" : (<span className={style.styleError}>{errorPassword}</span>)}</div>
             </div>
             <div>
               <label className={style.fotgetPasswordText}>Forgot Password?</label>
             </div>
-            <button type="submit" className={style.loginBtn}>LOGIN</button>
+            <NavLink to={'/home'}><button type="submit" onSubmit={submitData} className={style.loginBtn}>LOGIN</button> </NavLink>
 
             <div className='row mt-4 pl-1 pr-1'>
               <div className='col-md-4 '>
@@ -49,11 +126,13 @@ export default function Login() {
             <p className={style.LoginText}>By signing in, you agree to Sharaf DG's <span className={style.spanLoginStyle}>Terms and Conditions</span> and <span className={style.spanLoginStyle}>Privacy Policy</span></p>
 
             <div>
-              <button type="submit" className={style.registerBtn}>
-                <NavLink className={style.registerLinkPage} to={'/register'}>
+
+              <NavLink className={style.registerLinkPage} to={'/register'}>
+                <button type="submit" className={style.registerBtn}>
                   CREATE ACCOUNT
-                </NavLink>
-              </button>
+                </button>
+              </NavLink>
+
             </div>
           </div>
         </form>
@@ -61,3 +140,5 @@ export default function Login() {
     </Fragment>
   )
 }
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login)

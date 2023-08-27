@@ -111,6 +111,7 @@
 }
 .parentText{
     padding-top: 20px;
+    color: black !important;
 }
 .titleProducts{
     font-size: 14px;
@@ -133,10 +134,10 @@
 }
 
 .titleDiscount{
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 0px;
-    color: #0079c1;
-    font-size: 12px;
+    color: #0079c1 !important;
+    font-size: 12px !important;
     padding-left: 10px;
 }
 .titleDescription{
@@ -167,9 +168,12 @@
 }
 .productsSectionTwoDiv{
     width: 100%;
+    height: 100%;
     cursor: pointer;
+    position: relative;
     /* height: 300px; */
-    /* background-color: blue */
+    padding-bottom: 30px;
+    color: black !important; 
 }
 .productsSectionTwoDiv:hover{
    border-radius: 7px;
@@ -179,33 +183,28 @@
 .productsSectionTwoDiv:hover .addCarButton{ 
     width: 100%;
     visibility:visible; 
+    z-index: 99999999;
 }
 
 .addCarButton{
     width: 100%;
     visibility:hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 99999999;
     
 }
-.bodyCarsoulProducts{
-    /* box-sizing: border-box; */
-    /* display: flex ;
-    justify-content: center;
-    align-items: center; */
-}
+
 .wrapper{
-    /* min-width: 1200px ; */
     display: flex;
     justify-content:center;
     padding: 0 10px;
-    /* background-color: red; */
 }
 .wrapper .carousel{
     width: 85%;
-    /* white-space: nowrap; */
     font-size: 0;
     cursor: pointer;
     overflow: hidden;
-    /* background-color: #0079c1; */
 }
 
 .carousel .carouselImg{
@@ -237,15 +236,6 @@
     cursor: pointer;
     background-color: rgb(179, 179, 179);
 }
-
-/* @media screen and (max-width: 900px){
-    .carousel .carouselImg{
-        width: calc(100% / 2);
-    }
+.registerLinkPage{
+    text-decoration: none;
 }
-
-@media screen and (max-width: 550px){
-    .carousel .carouselImg{
-        width: 100%;
-    }
-} */

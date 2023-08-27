@@ -6,7 +6,7 @@ export default function CurrancyFormat(props) {
 
     function currencyTextFormat(num, isNegative) {
         num = isNegative ? Number(num) : Number(num);
-        return '$' + (isNegative ? '(' : '') + (Number(num).toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')) + (isNegative ? ')' : '')
+        return 'AED ' + (isNegative ? '(' : '') + (Number(num).toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')) + (isNegative ? ')' : '')
     }
     if (props.value < 0) {
         // currancyNumber.current.style.color = "red";

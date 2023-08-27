@@ -6,6 +6,7 @@ export default (state = [], action) => {
         case GET_CERTAIN_DATA_ITEM:
             newState = action.payload;
             console.log("newState at certain data:: ", newState);
+            localStorage.setItem('dataKey', JSON.stringify(newState));
             break;
         default:
             newState = state;

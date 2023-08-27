@@ -1,0 +1,45 @@
+.divImgProduct{
+    width: 100px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.imgProduct{
+    width: 100%;
+}
+.divDescribeProduct{
+    width: 400px ;
+}
+.RemoveBtn{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.divPriceProcess{
+    width: 200px ;
+    display: flex;
+    justify-content: end;
+}
+.counterItem{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    
+}
+.counterNum, .counterPlus, .counterMinus{
+    background-color: #e9e9e9;
+    width: 40px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 40px;
+    
+}
+.counterPlus, .counterMinus{
+    font-size: 14px;
+}
+.emptyCart{
+    text-align: center;
+    font-size: 60px;
+    color: #0A91B1;
+}
